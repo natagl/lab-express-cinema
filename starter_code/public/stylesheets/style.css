@@ -1,8 +1,25 @@
 body {
+  background-image: url("/images/cinema.jpg");
+  background-size: cover;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
 
 a {
-  color: #00B7FF; }
+  color: #00b7ff;
+}
+h1 {
+  color: aliceblue;
+  display: flex;
+  text-align: left;
+  font-size: 80px;
+}
+button {
+  color: #00b7ff;
+  font-size: 20px;
+  border-radius: 200px;
+  height: 40px;
+}
 
-/*# sourceMappingURL=style.css.map */
+.flex-container {
+  float: right;ls
