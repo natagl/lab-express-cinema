@@ -1,25 +1,38 @@
 body {
-  background-image: url("/images/cinema.jpg");
   background-size: cover;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
-  color: #00b7ff;
-}
+  color: #00b7ff; }
+
 h1 {
   color: aliceblue;
   display: flex;
   text-align: left;
-  font-size: 80px;
-}
+  font-size: 80px; }
+
 button {
   color: #00b7ff;
   font-size: 20px;
   border-radius: 200px;
-  height: 40px;
-}
+  height: 40px; }
 
 .flex-container {
-  float: right;ls
+  float: right;
+  margin-right: 150px;
+  margin-top: 75px; }
+
+.body {
+  background-image: url("/images/cinema.jpg"); }
+
+.eachMovie {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap-reverse; }
+
+.h1IronCinema {
+  color: #000; }
+
+/*# sourceMappingURL=style.css.map */
